@@ -1,0 +1,27 @@
+.nav{
+    position : fixed;
+    width : 100%;
+    padding : 20px 40px;
+    left : 0;
+    bottom : 0;
+    background-color: #fcfcfc;
+    border-top : 1px solid #f7f7f7;
+}
+.nav .nav__list{
+    display : flex;
+    justify-content : space-between;
+}
+
+.nav i{
+    font-size : 20px;
+}
+
+.nav .nav__list-link{
+    position: relative;
+}
+
+.nav .nav__badge{
+    position: absolute;
+    top : -7px;
+    right : -7px;
+}

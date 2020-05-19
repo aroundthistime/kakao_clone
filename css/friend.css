@@ -1,0 +1,96 @@
+.friend{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend .friend__column{
+    display: flex;
+    align-items: center;
+}
+
+.friend__column .friend__profile{
+    margin-right : 15px;
+}
+
+.friend__column .friend__username{
+    display : block;
+    margin-bottom : 5px;
+    font-weight : 600;
+}
+
+.friend__profile{
+    width : 50px;
+    height : 50px;
+    border-radius : 40%;
+}
+
+.g-profile.friend__profile{
+    width : 70px;
+    height : 70px;
+}
+
+.m-profile.friend__profile{
+    width : 60px;
+    height : 60px;
+}
+
+.friend__column .friend__preview,
+.friend__column .friend__status,
+.friend__column .plusfriend__count,
+.friend .chat__timestamp{
+    opacity: 0.65;
+}
+
+.friend__column .friend__preview{
+    font-size : 14px;
+}
+
+.friend__column .plusfriend__count{
+    font-size : 13px;
+    cursor: pointer;
+}
+
+
+.friend__column .friend__status,
+.friend .chat__timestamp{
+    font-size : 12px;
+}
+
+.friend .friend__now-listening{
+    border : 2px solid #04E031;
+    padding : 5px 10px;
+    border-radius : 15px;
+    font-size : 14px;
+}
+
+.friend__now-listening span {
+    opacity: 0.65;
+}
+.friend__now-listening i{
+    font-size : 14px;
+    color :#04E031;
+}
+
+.friends__list .friend,
+.find__recommended .friend{
+    padding-bottom : 13px;
+}
+
+.chats__list .friend{
+    padding-bottom : 23px;
+}
+
+.friend__add-btn{
+    background-color: #F5F5F5;
+    height : 30px;
+    width : 40px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.friend--lg .friend__username{
+    font-size : 17px;
+}

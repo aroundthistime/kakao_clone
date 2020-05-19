@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats | Kakao Clone</title>
+    <script src="https://kit.fontawesome.com/3d92170940.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__carrier">SKT</span>
+            <span class="status-bar__clock">1:03</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__header-column">
+            <h1 class="header__title">Chats</h1>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="far fa-comment"></i>
+            </span>
+            <span class="header__icon">
+                <a href='settings.html'>
+                    <i class="fas fa-cog"></i>
+                </a>
+            </span>
+        </div>
+    </header>
+    <main class="chats">
+        <ul class="chats__list">
+            <a href="chat1.html">
+                <li class="chats__chat friend">
+                    <div class="friend__column">
+                        <img src="profiles/cho.jpg" class="m-profile friend__profile">
+                        <div class="friend__content">
+                            <span class="friend__username">Cho</span>
+                            <span class="friend__preview">
+                                이따 들어와
+                            </span>
+                        </div>
+                    </div>
+                    <div class="friend__column badge-column">
+                        <span class="chat__timestamp">20:03</span>
+                        <div class="chat__badge badge">2</div>
+                    </div>
+                </li>
+            </a>
+            <a href="chat2.html">
+                <li class="chats__chat friend">
+                    <div class="friend__column">
+                        <img src="profiles/lion.gif" class="m-profile friend__profile">
+                        <div class="friend__content">
+                            <span class="friend__username">라이언</span>
+                            <span class="friend__preview">
+                                ㅇㅋ
+                            </span>
+                        </div>
+                    </div>
+                    <div class="friend__column">
+                        <span class="chat__timestamp">19:37</span>
+                    </div>
+                </li>
+            </a>
+                <!-- <li class="chats__chat chat">
+                    <div class="chat__column">
+                        <img src="profiles/cat.jpg" class="chat__profile">
+                        <div class="chat__content">
+                            <span class="chat__username">
+                                Cho
+                            </span>
+                            <span class="chat__preview">
+                                Going home!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="chat__column">
+                        <span class="chat__timestamp">Yesterday</span>
+                    </div>
+                </li> -->
+            </a>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
+                <i class="far fa-user"></i>
+            </a></li>
+            <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                <div class="nav__badge">2</div>
+                <i class="fas fa-comment"></i>
+            </a></li>
+            <li class="nav__list-item"><a href="find.html" class="nav__list-link">
+                <i class="fas fa-search"></i>
+            </a></li>
+            <li class="nav__list-item"><a href="more.html" class="nav__list-link">
+                <i class="fas fa-ellipsis-h"></i>
+            </a></li>
+        </ul>
+    </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
+</body>
+</html>
