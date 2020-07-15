@@ -1,0 +1,185 @@
+.gamestar__section{
+    margin-bottom : 20px;
+    position: relative;
+    border-bottom : 1px solid #f0f0f0;
+}
+
+.gamestar__section-header{
+    display : flex;
+    justify-content : space-between;
+    width : 100%;
+    margin-bottom : 10px;
+}
+
+.gamestar__section-header .gamestar__section-title{
+    font-size : 17px;
+    font-weight : 600;
+    opacity : 0.8;
+}
+
+.gamestar__section-header .gamestar__section-more{
+    font-size : 12px;
+    cursor : pointer;
+}
+
+.gamestar .gamestar__ad__img{
+    width : 100%;
+    cursor : pointer;
+    position: relative;
+    z-index : 1;
+}
+
+.gamestar__ad .gamestar__ad-badge{
+    position : absolute;
+    width : 60px;
+    height : 24px;
+    background-color: rgb(247, 51, 51);
+    color : #fcfcfc;
+    font-weight : 600;
+    font-size : 12px;
+    top : 0;
+    right : 10px;
+    z-index : 2;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    border-radius : 0 0 10px 10px;
+}
+
+.gamestar__articles-main .gamestar__article{
+    padding : 5px 0px;
+    border-top : 1px solid #f0f0f0;
+    width : 100%;
+    height : 150px;
+    display : flex;
+}
+
+.gamestar__article-img, gamestar__article-content{
+    flex-shrink: 0;
+}
+
+.gamestar__article-img{
+    width : 200px;
+    cursor : pointer;
+}
+
+.gamestar__article-content{
+    height : 100%;
+    display : flex;
+    padding : 30px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.gamestar__article-content .gamestar__article__title{
+    font-size : 15px;
+    word-break:keep-all;
+    line-height: 20px;
+    cursor : pointer;
+}
+
+.gamestar__article-content .gamestar__article__author{
+    font-size : 12px;
+}
+
+.gamestar__articles .gamestar__articles-more{
+    display : flex;
+    justify-content: center;
+    border-top : 1px solid #f0f0f0;
+    padding : 15px 0px;
+    cursor: pointer;
+}
+
+.gamestar__popular .gamestar__popular-content{
+    width : 100%;
+    display : grid;
+    grid-template-columns: repeat(4, 18vw);
+    gap : 20px;
+    justify-content : space-between;
+    grid-template-rows: 23vw;
+    grid-auto-rows: 23vw;
+    padding-bottom: 25px;
+}
+
+.popular__game{
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    cursor : pointer;
+}
+
+.popular__game img{
+    width : 100%;
+    height : 18vw;
+    border-radius: 15px;
+    margin-bottom : 5px;
+}
+
+.popular__game img:hover{
+    transform: scale(1.1);
+}
+
+.popular__game img:active{
+    transform : scale(0.9);
+}
+
+.popular__game .popular__game-title{
+    font-size : 12px;
+    text-align : center;
+    word-break: keep-all;
+    line-height : 16px;
+}
+
+.gamestar__recommend{
+    margin-top : 10px;
+    position: relative;
+    width : 100%;
+
+}
+
+.gamestar__recommend img{
+    width : 100%;
+}
+
+
+.gamestar__recommend .recommend-info{
+    width : 100%;
+    padding : 0 10px;
+    position : absolute;
+    bottom : 20px;
+    display : flex;
+    justify-content: space-between;
+    font-weight : 600;
+    color : rgb(51, 51, 51);
+}
+
+.gamestar__recommend .recommend-info.white{
+    color : #fcfcfc;
+}
+
+.recommend-info .right{
+    display : flex;
+    width : 30%;
+    justify-content: space-between;
+}
+
+.recommend-info .recommend-btn{
+    cursor: pointer;
+}
+
+.recommend-info .recommend-btn:hover{
+    transform : scale(1.2);
+}
+
+.gamestar .main__top-btn{
+    width : 100%;
+    height : 35px;
+    display : flex;
+    justify-content: center;
+    font-size : 20px;
+}
+
+.light{
+    opacity : 0.6;
+}

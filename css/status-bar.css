@@ -10,7 +10,7 @@
     border-bottom : 1px solid #f7f7f7;
     padding : 20px 10px;
     color : white;
-    z-index: 1;
+    z-index: 3;
 }
 
 .status-bar i {
