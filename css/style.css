@@ -12,6 +12,7 @@
 @import "chat.css";
 @import "mobile.css";
 @import "gamestar.css";
+@import "quickscroll.css";
 
 *{
     box-sizing: border-box;
@@ -50,6 +51,7 @@ a{
 
 main {
     animation : fadeIn 0.5s ease-in-out;
+    position: relative;
 }
 
 @media screen and (min-width : 550px){
