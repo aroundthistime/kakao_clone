@@ -51,7 +51,7 @@
     border-top : 1px solid #f0f0f0;
     width : 100%;
     height : 150px;
-    display : flex;
+    display : flex; 
 }
 
 .gamestar__article-img, gamestar__article-content{
@@ -59,7 +59,7 @@
 }
 
 .gamestar__article-img{
-    width : 200px;
+    width : 45%;
     cursor : pointer;
 }
 

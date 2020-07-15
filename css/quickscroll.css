@@ -2,10 +2,10 @@
     position : fixed;
     background-color: rgb(156, 156, 156);
     opacity : 0.6;
-    top : 130px;
+    top : 17vh;
     right : 20px;
     width : 20px;
-    height : 400px;
+    height : 70vh;
     display : flex;
     flex-direction: column;
     justify-content: space-around;
